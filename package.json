@@ -6,9 +6,7 @@
   "main": "flux/app.js",
   "scripts": {
     "start": "node server.js",
-    "watch": "watchify -o js/bundle.js -v -d flux/app.js",
-    "build": "browserify . -t [envify --NODE_ENV production] | uglifyjs -cm > js/bundle.min.js",
-    "test": "jest"
+    "watch": "watchify -o js/bundle.js -v -d flux/app.js"
   },
   "dependencies": {
     "classnames": "^2.1.3",

@@ -19,10 +19,10 @@ var Header = React.createClass({
   render: function() {
     return (
       <header id="header">
-        <h1>试试看</h1>
+        <h1>添加</h1>
         <TodoTextInput
           id="new-todo"
-          placeholder="输入些什么?"
+          placeholder="在这里输入"
           onSave={this._onSave}
         />
       </header>
