@@ -22,7 +22,7 @@ var Header = React.createClass({
         <h1>添加</h1>
         <TodoTextInput
           id="new-todo"
-          placeholder="在这里输入"
+          placeholder="试试在这里输入"
           onSave={this._onSave}
         />
       </header>
