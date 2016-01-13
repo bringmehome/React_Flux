@@ -9,8 +9,9 @@ module.exports = {
         './flux/app'
     ],
     output: {
-        path: path.join(__dirname, '.'),
-        publicPath: '/js/',
+        // path: path.join(__dirname, '.'),
+        path: __dirname + '/assets/',
+        publicPath: "/js/",
         filename: 'bundle.js'
     },
     plugins: [

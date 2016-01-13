@@ -36,8 +36,8 @@ var Footer = React.createClass({
     }
 
     var itemsLeft = total - completed;
-    var itemsLeftPhrase = itemsLeft === 1 ? ' item ' : ' items ';
-    itemsLeftPhrase += 'left';
+    var itemsLeftPhrase = itemsLeft === 1 ? '项 ' : '项 ';
+    // itemsLeftPhrase += 'left';
 
     // Undefined and thus not rendered if no completed items are left.
     var clearCompletedButton;
@@ -53,6 +53,7 @@ var Footer = React.createClass({
   	return (
       <footer id="footer">
         <span id="todo-count">
+          剩余 
           <strong>
             {itemsLeft}
           </strong>
